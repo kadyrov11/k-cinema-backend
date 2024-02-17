@@ -1,8 +1,6 @@
 {
     "version": 2,
-    "env": {
-        "MONGO_URI": "mongodb+srv://user_1101:user_1101@cluster0.dw6brqj.mongodb.net/?retryWrites=true&w=majority"
-    },
+
     "builds": [
         {
             "src": "/src/main.ts",
