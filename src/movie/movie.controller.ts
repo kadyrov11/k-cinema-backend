@@ -14,8 +14,8 @@ import {
 
 import { MovieDto } from './dto/movie.dto';
 import { MovieService } from './movie.service';
-import { Auth } from 'src/auth/decorators/auth.decorator';
-import { IdValidationPipe } from 'src/pipes/id.validation.pipe';
+import { Auth } from '../auth/decorators/auth.decorator';
+import { IdValidationPipe } from '../pipes/id.validation.pipe';
 import { Types } from 'mongoose';
 import { GenreIdsDto } from './dto/genre-ids.dto';
 
