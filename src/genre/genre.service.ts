@@ -3,7 +3,7 @@ import { InjectModel } from 'nestjs-typegoose';
 import { GenreModel } from './genre.model';
 import { ModelType } from '@typegoose/typegoose/lib/types';
 import { genreDto } from './dto/genre.dto';
-import { MovieService } from 'src/movie/movie.service';
+import { MovieService } from '../movie/movie.service';
 import { ICollection } from './genre.interface';
 
 @Injectable()

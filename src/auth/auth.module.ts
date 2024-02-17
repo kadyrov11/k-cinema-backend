@@ -7,7 +7,7 @@ import { JwtStrategy } from './strategies/jwt.strategy';
 
 import { AuthService } from './auth.service';
 import { AuthController } from './auth.controller';
-import { UserModel } from 'src/user/user.model';
+import { UserModel } from '../user/user.model';
 
 @Module({
   providers: [AuthService, JwtStrategy],

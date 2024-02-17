@@ -6,16 +6,12 @@ import { TypegooseModule } from 'nestjs-typegoose';
 import { getMongoConfig } from './config/mongo.config';
 import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
-import { GenreController } from './genre/genre.controller';
 import { GenreModule } from './genre/genre.module';
-import { FileService } from './file/file.service';
-import { FileController } from './file/file.controller';
 import { FileModule } from './file/file.module';
 import { ActorModule } from './actor/actor.module';
 import { MovieModule } from './movie/movie.module';
 import { RatingModule } from './rating/rating.module';
 import { TelegramModule } from './telegram/telegram.module';
-
 
 @Module({
   imports: [
@@ -23,7 +19,7 @@ import { TelegramModule } from './telegram/telegram.module';
     TypegooseModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
-      useFactory: getMongoConfig
+      useFactory: getMongoConfig,
     }),
     AuthModule,
     UserModule,
@@ -32,7 +28,7 @@ import { TelegramModule } from './telegram/telegram.module';
     ActorModule,
     MovieModule,
     RatingModule,
-    TelegramModule
+    TelegramModule,
   ],
   controllers: [AppController],
   providers: [AppService],

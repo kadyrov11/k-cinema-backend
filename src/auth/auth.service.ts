@@ -10,7 +10,7 @@ import { ModelType } from '@typegoose/typegoose/lib/types';
 import { JwtService } from '@nestjs/jwt';
 import { genSalt, compare, hashSync } from 'bcryptjs';
 
-import { UserModel } from 'src/user/user.model';
+import { UserModel } from '../user/user.model';
 import { AuthDto } from './dto/auth.dto';
 import { RefreshTokenDto } from './dto/refreshToken.dto';
 

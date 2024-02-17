@@ -13,9 +13,9 @@ import {
 
 import { UserService } from './user.service';
 import { User } from './decorators/user.decorator';
-import { Auth } from 'src/auth/decorators/auth.decorator';
+import { Auth } from '../auth/decorators/auth.decorator';
 import { UpdateUserDto } from './dto/updateUser.dto';
-import { IdValidationPipe } from 'src/pipes/id.validation.pipe';
+import { IdValidationPipe } from '../pipes/id.validation.pipe';
 import { Types } from 'mongoose';
 import { UserModel } from './user.model';
 

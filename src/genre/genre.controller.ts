@@ -13,8 +13,8 @@ import {
 
 import { genreDto } from './dto/genre.dto';
 import { GenreService } from './genre.service';
-import { Auth } from 'src/auth/decorators/auth.decorator';
-import { IdValidationPipe } from 'src/pipes/id.validation.pipe';
+import { Auth } from '../auth/decorators/auth.decorator';
+import { IdValidationPipe } from '../pipes/id.validation.pipe';
 
 @Controller('genres')
 export class GenreController {
