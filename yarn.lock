@@ -713,7 +713,6 @@
   version "10.3.3"
   resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-10.3.3.tgz#ba20f756dbed62f5fe29737c42384ad41156c9e9"
   integrity sha512-LAkTe8/CF0uNWM0ecuDwUNTHCi1lVSITmmR4FQ6Ftz1E7ujQCnJ5pMRzd8JRN14vdBkxZZ8VbVF0BDUKoKNxMQ==
-
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
@@ -2112,6 +2111,11 @@ core-util-is@^1.0.3, core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
+
+cors-ts@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/cors-ts/-/cors-ts-1.0.3.tgz#dc4c9f91f8e1a4c567f76650dccf74d5f7ced64f"
+  integrity sha512-RxaNeLeKpqYc3b2Q6nWq4dFDrR2AbE66enU9Da68xNZ7rhurBTwJZtbB1zoCJp1bBcZceUhKis5o1HweDwK1dA==
 
 cors@2.8.5:
   version "2.8.5"
