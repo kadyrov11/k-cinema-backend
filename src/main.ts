@@ -9,7 +9,7 @@ async function bootstrap() {
   app.setGlobalPrefix('api');
   app.use(
     cors({
-      origin: 'https://k-cinema-client.vercel.app',
+      origin: '*',
       optionsSuccessStatus: 200,
     }),
   );
